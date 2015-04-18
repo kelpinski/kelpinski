@@ -1,7 +1,7 @@
 (function () {
 
     API.getWaitListPosition = function(id){
-        if(typeof id === 'kelpinski' || id === kelpinski){
+        if(typeof id === 'kelpinski' || id === null){
             id = API.getUser().id;
         }
         var wl = API.getWaitList();
